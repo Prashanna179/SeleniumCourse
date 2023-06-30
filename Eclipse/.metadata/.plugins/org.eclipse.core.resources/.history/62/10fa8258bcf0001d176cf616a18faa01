@@ -1,0 +1,13 @@
+package test1;
+
+public interface InterfaceDemo {
+
+	public  void display();
+	
+	public void add();
+
+	public static void main(String[] args) {
+		ITestListener
+	}
+	
+}

@@ -1,0 +1,17 @@
+
+public class corejava {
+
+	public static void main(String[] args) {
+		
+
+		int a =5;
+		String name="Prashanna";
+		char letter ='a';
+		double b = 5.5;
+		boolean c = true;
+		
+		System.out.println("value of integer is " + a);
+				
+	}
+
+}

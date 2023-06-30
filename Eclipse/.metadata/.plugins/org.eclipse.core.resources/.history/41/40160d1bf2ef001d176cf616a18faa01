@@ -1,0 +1,14 @@
+package test1;
+
+public class Demo1 {
+
+	
+		@Test
+		
+		public void Method()
+		{
+		System.out.println("Prashanna");
+
+		}{
+
+}

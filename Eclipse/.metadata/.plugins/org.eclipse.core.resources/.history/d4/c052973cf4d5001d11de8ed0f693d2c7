@@ -1,0 +1,15 @@
+
+public class AbstractDemo {
+
+	public void getCollege()
+	{
+		System.out.println("PSG");
+	}
+	
+	public void getLocation()
+	{
+		System.out.println("Coimbator");
+	}
+	
+
+}

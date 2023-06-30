@@ -1,0 +1,14 @@
+
+public class EmployeeClassCompCompoDemo {
+
+	public static void main(String[] args) {
+		
+		EmployeeClassComparableAndComparator e = new EmployeeClassComparableAndComparator(1,"Prashanna");
+		EmployeeClassComparableAndComparator e1 = new EmployeeClassComparableAndComparator(2,"Dhivyan");
+		EmployeeClassComparableAndComparator e1 = new EmployeeClassComparableAndComparator(2,"Dhivyan");
+		
+		
+
+	}
+
+}

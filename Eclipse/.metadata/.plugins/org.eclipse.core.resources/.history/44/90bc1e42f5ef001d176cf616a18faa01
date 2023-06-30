@@ -1,0 +1,16 @@
+package test1;
+
+public class Demo2 {
+
+	
+	public static void chuma()
+	{
+		System.out.println("CHuma");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Demo2.chuma();
+	}
+
+}

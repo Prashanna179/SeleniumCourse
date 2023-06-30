@@ -1,0 +1,23 @@
+
+public class constructorDemo {
+
+
+	public void constructorDemo()
+	{
+		System.out.println("Default Constructor");
+	}
+	
+	
+	public void constructorDemo()
+	{
+		System.out.println("Default Constructor");
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

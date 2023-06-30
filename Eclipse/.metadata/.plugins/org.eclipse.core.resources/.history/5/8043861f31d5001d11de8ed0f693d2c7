@@ -1,0 +1,8 @@
+
+public interface Add {
+			
+	
+	public static int adding();
+	
+	
+}

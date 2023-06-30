@@ -1,0 +1,160 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Alerts {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\UserDrive\\Prashan\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
+		driver.findElement(By.id("name")).sendKeys(text);
+
+		driver.findElement(By.cssSelector("[id='alertbtn']")).click();
+
+		System.out.println(driver.switchTo().alert().getText());
+
+		driver.switchTo().alert().accept();
+
+		driver.findElement(By.id("confirmbtn")).click();
+
+		System.out.println(driver.switchTo().alert().getText());
+
+
+
+		driver.switchTo().alert().dismiss();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		   
+
+
+
+
+
+
+
+
+
+
+
+
+
+		}
+
+
+
+		       
+
+
+
+		       
+
+
+
+		     
+
+		       
+
+
+
+		       
+
+
+
+
+
+
+
+		}
+
+		Course content
+		Start
+		51. Important Note
+		1min
+		Play
+		52. Handling Static dropdowns with Select webdriver API
+		14min
+		Play
+		53. Updated lecture on latest Dropdown looping UI
+		16min
+		Start
+		54. Code Snippet download
+		1min
+		Play
+		55. Handle Dynamic dropdowns with Webdriver API
+		18min
+		Play
+		56. Parent-Child relationship locator to Identify the objects Uniquely
+		13min
+		Start
+		57. Code Snippet download
+		1min
+		Play
+		58. Handling AutoSuggestive dropdowns using Selenium
+		13min
+		Start
+		59. AutoSuggestive code download
+		1min
+		Play
+		60. Handling Checkbox and getting the size of them with Selenium
+		15min
+		Play
+		61. Importance of Assertions in Automation testing and how to use them
+		16min
+		Start
+		62. Code Snippet download
+		1min
+		Start
+		Assignment 1: Checkboxes exercise
+		Play
+		63. Handling Calendar UI in travel websites using Selenium
+		12min
+		Play
+		64. Validating if UI Elements are disabled or enabled with Attributes
+		16min
+		Start
+		Assignment 2: UI(Dropdowns,EditBoxes,Error Valdiation) Assignment
+		Start
+		65. Code Snippet download
+		1min
+		Play
+		66. End to End Automation using all UI Elements with selenium
+		17min
+		Start
+		67. Exercise code download
+		1min
+		Play
+		68. Handling Java Alerts using Selenium Webdriver
+		18min
+		Start
+		69. Alerts code download
+		1min
+		Start
+		Quiz 3: Quiz - Check Your Knowledge
+
+
+	}
+
+}

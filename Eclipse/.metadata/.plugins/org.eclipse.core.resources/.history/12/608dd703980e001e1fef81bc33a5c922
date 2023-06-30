@@ -1,0 +1,22 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ScrollinTable {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("http://10.93.5.171/COSEC/Login");
+		driver.findElement(By.id("loginid")).sendKeys("21777");
+		driver.findElement(By.id("pwd")).sendKeys("Temenos@179");
+		
+		driver.findElement(By.id("btnlogin")).click();
+		
+		driver.findElement(By.xpath("//label[text()='Daily Attendance']/.."))
+		
+
+	}
+
+}

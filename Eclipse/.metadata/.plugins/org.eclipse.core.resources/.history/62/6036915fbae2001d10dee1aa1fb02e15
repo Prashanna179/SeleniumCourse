@@ -1,0 +1,54 @@
+
+public class ArrayExampleProgram {
+
+	public static void main(String[] args) {
+		
+		//int a[]= {3,11,2,6,9,23,5,55};
+		int a[]= {1,2,3,4};
+		
+		//Second Largest element in the array
+		int firstMax = a[0];
+		int secondMax = a[1];
+		
+		
+		if(secondMax > firstMax)
+		{
+			int temp = firstMax;
+			firstMax = secondMax;
+			secondMax=temp;
+		}
+		
+		for(int j=2;j<a.length;j++)
+		{
+			if(a[j]>firstMax)
+			{
+				int temp = firstMax;
+				firstMax = a[j];
+				//secondMax = temp;
+			}
+			
+			else if(a[j]<firstMax && a[j]>secondMax)
+			{
+				secondMax = a[j];
+			}
+		}
+		
+		System.out.println(secondMax);
+		
+		
+		
+		
+		//Minimum number in an array
+		int min = a[0];
+		for(int i=1;i<a.length;i++)
+		{
+			if(a[i]<min)
+			{
+				min=a[i];
+			}
+		}
+
+		System.out.println(min);
+	}
+
+}

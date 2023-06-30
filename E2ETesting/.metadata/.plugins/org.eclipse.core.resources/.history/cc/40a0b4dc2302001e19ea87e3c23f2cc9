@@ -1,0 +1,37 @@
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class TestDemo {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		//Handling Window Authentication
+		//driver.get("https://the-internet.herokuapp.com/");
+		/*driver.get("https://admin:admin@the-internet.herokuapp.com/");
+		driver.findElement(By.xpath("//a[text()='Basic Auth']")).click();*/
+		
+		//AutoIT
+		
+		driver.get("https://altoconvertpdftojpg.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//*[text()='Choose Files']")).click();
+		Thread.sleep(3000);
+		Runtime.getRuntime().exec("C:\\Users\\prashanna.ramesh\\Downloads\\FileUpload.exe");
+		
+		driver.findElement(By.xpath("//*[text()=' Convert files']")).click();
+		
+		WebDriverWait w = new WebDriverWait(driver, null);
+
+	}
+
+}

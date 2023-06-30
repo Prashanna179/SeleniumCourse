@@ -1,0 +1,102 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Vector;
+
+public class DurgaSoftCollections {
+
+	public static void main(String[] args) {
+		
+		//--------Collection(I)--------------
+		System.out.println("Collection");
+		Collection c = new ArrayList();
+		c.add("Prashanna");
+		c.add("Dhivyan");
+		
+		Collection d  = new ArrayList();
+		d.add("Letchu");
+		d.add("Prakash");
+		d.addAll(c);
+		
+		
+		Collection e = new ArrayList();
+		e.add("Prashanna");
+		e.add("Prakash");
+		
+		System.out.println(c);
+		System.out.println(d);
+		
+		//d.removeAll(e);
+		
+		//d.retainAll(e);
+		
+		System.out.println(d);
+		
+		System.out.println("** ** ** ** **");
+		
+		//-----List(I)-----------
+		
+		System.out.println("List");
+		List l = new ArrayList();
+		l.addAll(d);
+		System.out.println(l);
+		
+		
+		//ListIterator
+		
+		ListIterator it = l.listIterator();
+		while (it.hasNext()) 
+		{
+			System.out.println(it.next());  
+			
+		}
+			
+		System.out.println("** ** ** ** **");
+		//----------ArrayList--------
+		
+		System.out.println("ArrayList");
+		ArrayList al = new ArrayList();
+		ArrayList al1 = new ArrayList(d);
+		ArrayList al2 = new ArrayList(10);
+		System.out.println(al1);
+		
+		
+		System.out.println("** ** ** ** **");
+		//----------LinkedList--------
+		
+		System.out.println("LinkedList");
+		LinkedList ll = new LinkedList();
+		ll.add("x");
+		ll.add("y");
+		ll.add("z");
+		System.out.println(ll);
+		ll.addFirst("w");
+		
+		System.out.println(ll);
+		
+		System.out.println("** ** ** ** **");
+		//----------Vector--------
+		
+		Vector v = new Vector();
+		Vector v1 = new Vector(15);
+		Vector v2 = new Vector(10,5);
+		
+		
+		System.out.println("** ** ** ** **");
+		//----------Stack--------
+		
+		Stack s = new Stack();
+		
+		
+		
+
+		
+
+	
+	}
+	
+}
+

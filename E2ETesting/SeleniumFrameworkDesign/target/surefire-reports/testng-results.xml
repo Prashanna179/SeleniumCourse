@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T09:16:06 IST" name="Suite" finished-at="2023-05-25T09:16:55 IST" duration-ms="48402">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" name="SubmitOrder" class="Temenos.TestCases.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-05-25T09:16:06 IST" name="Submit Order TestFolder" finished-at="2023-05-25T09:16:39 IST" duration-ms="32114">
+      <class name="Temenos.TestCases.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:07 IST" name="launchApplication" finished-at="2023-05-25T09:16:14 IST" duration-ms="6953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:14 IST" name="SubmitOrder" data-provider="giveData" finished-at="2023-05-25T09:16:21 IST" duration-ms="7058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@179, email=prashannarg@gmail.com, productName=zara coat 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:21 IST" name="closeWindow" finished-at="2023-05-25T09:16:21 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:21 IST" name="launchApplication" finished-at="2023-05-25T09:16:26 IST" duration-ms="4574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:26 IST" name="SubmitOrder" data-provider="giveData" finished-at="2023-05-25T09:16:33 IST" duration-ms="7534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@179, email=Dhivyan@gmail.com, productName=adidas original}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:33 IST" name="closeWindow" finished-at="2023-05-25T09:16:33 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:33 IST" name="launchApplication" finished-at="2023-05-25T09:16:37 IST" duration-ms="3645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateOrderPage()[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:37 IST" name="validateOrderPage" finished-at="2023-05-25T09:16:38 IST" depends-on-methods="Temenos.TestCases.SubmitOrderTest.SubmitOrder" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderPage -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Temenos.TestCases.SubmitOrderTest@5af3afd9]" started-at="2023-05-25T09:16:38 IST" name="closeWindow" finished-at="2023-05-25T09:16:39 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Temenos.TestCases.SubmitOrderTest -->
+    </test> <!-- Submit Order TestFolder -->
+    <test started-at="2023-05-25T09:16:39 IST" name="Error Validation TestFolder" finished-at="2023-05-25T09:16:55 IST" duration-ms="16255">
+      <class name="Temenos.TestCases.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Temenos.TestCases.ErrorValidationTest@4135c3b]" started-at="2023-05-25T09:16:39 IST" name="launchApplication" finished-at="2023-05-25T09:16:43 IST" duration-ms="4213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="confirmationMsgValidation()[pri:0, instance:Temenos.TestCases.ErrorValidationTest@4135c3b]" started-at="2023-05-25T09:16:43 IST" name="confirmationMsgValidation" finished-at="2023-05-25T09:16:49 IST" duration-ms="6265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationMsgValidation -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Temenos.TestCases.ErrorValidationTest@4135c3b]" started-at="2023-05-25T09:16:49 IST" name="closeWindow" finished-at="2023-05-25T09:16:49 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Temenos.TestCases.ErrorValidationTest@4135c3b]" started-at="2023-05-25T09:16:49 IST" name="launchApplication" finished-at="2023-05-25T09:16:53 IST" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:Temenos.TestCases.ErrorValidationTest@4135c3b]" started-at="2023-05-25T09:16:53 IST" name="loginErrorValidation" finished-at="2023-05-25T09:16:55 IST" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:Temenos.TestCases.ErrorValidationTest@4135c3b]" started-at="2023-05-25T09:16:55 IST" name="closeWindow" finished-at="2023-05-25T09:16:55 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- Temenos.TestCases.ErrorValidationTest -->
+    </test> <!-- Error Validation TestFolder -->
+  </suite> <!-- Suite -->
+</testng-results>

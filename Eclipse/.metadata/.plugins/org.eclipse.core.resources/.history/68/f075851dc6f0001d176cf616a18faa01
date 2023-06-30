@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WealthSuite" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="test1.ListenerDemo"/>
+	</listeners>
+	
+	<parameter name="URL" value="https://amazon.com"/>
+	
+  <test thread-count="5" name="TestModule1" parallel="classes">
+	  <parameter name="URL" value="https://amazontestfolder1.com"/>
+	<classes>
+		<class name="test1.Demo5Parameters"/>
+		<class name="test1.Demo6Parameters"/>
+	</classes>
+  </test> 
+  <test thread-count="5" name="TestModule2">
+	  <parameter name="URL" value="https://amazonamazontestfolder2.com"/>
+	<classes>
+		<class name="test1.Demo7Parameters"/>
+	</classes>
+  </test> 
+  <test thread-count="5" name="TestModule3">
+	<classes>
+		<class name="test1.Demo8Parameters"/>
+	</classes>
+  </test> 
+</suite>

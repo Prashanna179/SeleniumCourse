@@ -1,0 +1,10 @@
+package test1;
+
+public class Demo2 {
+
+	public void Letchu()
+	{
+		System.out.println("Letchu");
+	}
+
+}

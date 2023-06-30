@@ -1,0 +1,29 @@
+
+public class IntegerSumArray {
+
+	
+
+	public static void main(String[] args) {
+		
+		/*int a = 10;
+		int b=20;
+		int c = a+b;
+		*/
+		
+		Sum g = new Sum();
+		
+		System.out.println(c);
+		
+		//----------
+		//---------
+		//-------------
+		
+		
+		/*int d = 6;
+		int e = 8;
+		int f = d+e;*/
+		System.out.println(f);
+		
+	}
+
+}

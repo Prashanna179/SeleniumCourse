@@ -1,0 +1,198 @@
+//select[contains(@name,'TAP[1].WORKINGELEMENTS[1].PROVIDERLIST')]   (MSCI)
+
+(//div[text()='Ratings'])[2]
+
+
+//label[text()='Classification']/../../.. (Classification,Undefined)
+
+(//label[text()='Last Data Update']/../../..)[2]  (Last Data Update,22/03/2022)
+
+//label[text()='Ratings Last Data Update']/../../..    (Ratings Last Data Update,22/03/2022)
+
+
+RATING HISTORY
+
+//span[text()='Rating History']
+
+click : //span[text()='Rating History']/..
+
+//a[@title='RatingHistory-List View']
+//a[@title='RatingHistory-Chart View']
+
+
+//caption[text()='Rating History']/..//thead   (Year,Rating,Rating Date)
+
+//caption[text()='Rating History']/..//tbody
+
+
+
+//span[text()='Rating Per Pillar']
+
+click : //span[text()='Rating Per Pillar']/..
+
+//a[@title='RatingPerPillarList']
+
+//a[@title='RatingPerPillarChart']
+
+
+(//span[text()='Rating Per Pillar']/../../../..//*[@class='highcharts-axis-labels highcharts-xaxis-labels'])[1]   (Environmental Pillar Score,Social Pillar Score,Governance Pillar Score)
+
+Mouseover
+
+//span[text()='Rating Per Pillar']/../../../..//*[contains(@class,'highcharts-series highcharts-series-0 highcharts-column-series')]//*[1]
+//span[text()='Rating Per Pillar']/../../../..//*[contains(@class,'highcharts-series highcharts-series-0 highcharts-column-series')]//*[2]
+//span[text()='Rating Per Pillar']/../../../..//*[contains(@class,'highcharts-series highcharts-series-0 highcharts-column-series')]//*[3]
+
+ToolTip
+
+//div[contains(@class,'highcharts-label highcharts-tooltip')]//span
+
+Verify 
+
+Environmental Pillar Score,Please click here to see the pillar level details
+Social Pillar Score,Please click here to see the pillar level details
+Governance Pillar Score,Please click here to see the pillar level details
+
+
+
+(//span[text()='Rating Per Pillar']/../../../..//*[contains(@class,'highcharts-data-labels highcharts-series-0')])[1]
+
+
+//caption[text()='RatingPerPillarList']/..//thead
+
+
+
+//tbody//span[text()='Environmental Pillar Score']/../../..
+//tbody//span[text()='Environmental Pillar Score']/../..//i
+
+//tbody//span[text()='Water Stress Exposure Score']/../../..
+
+
+//tbody//span[text()='Social Pillar Score']/../../..
+//tbody//span[text()='Social Pillar Score']/../..//i
+
+//tbody//span[text()='Privacy & Data Security Exposure Score']/../../..
+//tbody//span[text()='Human Capital Development Exposure Score']/../../..
+//tbody//span[text()='Labor Management Exposure Score']/../../..
+
+//tbody//span[text()='Governance Pillar Score']/../../..
+//tbody//span[text()='Governance Pillar Score']/../..//i
+
+
+//tbody//span[text()='No Female Directors']/../../..
+//tbody//span[text()='No Female Directors']/../..//i
+
+//tbody//span[text()='No Female Directors Score']
+
+
+
+
+
+
+//*[@class='growl-message']
+
+
+
+
+
+
+
+
+//*[@id='sdg_chart']
+
+
+(//*[text()='Sustainability Details']/../../../../..//*[@class='highcharts-axis-labels highcharts-xaxis-labels']//*[text()='CCC'])[1]
+
+//*[text()='Sustainability Details']/../../../../..//*[contains(@class,'highcharts-label highcharts-tooltip')]//span
+
+
+//caption[text()='Rating Info Table']/..//thead
+
+//caption[text()='Rating Info Table']/..//tbody//tr[1]
+
+
+
+
+//*[@id='sdg_chart']//*[@id='goal1']//*   No poverty (Neutral)
+//*[@id='sdg_chart']//*[@id='goal2']//*   Zero hunger (Neutral)
+//*[@id='sdg_chart']//*[@id='goal3']//*   Good health and well-being (Neutral)
+//*[@id='sdg_chart']//*[@id='goal4']//*   Quality education (Neutral)
+//*[@id='sdg_chart']//*[@id='goal5']//*   Gender equality (Neutral)
+//*[@id='sdg_chart']//*[@id='goal6']//*   Clean water and sanitation (Neutral)
+//*[@id='sdg_chart']//*[@id='goal7']//*   Affordable and clean energy (Neutral)
+//*[@id='sdg_chart']//*[@id='goal8']//*	  Decent work and economic growth (Aligned)  (//*[@id='sdg_chart']//*[contains(@id,'goal8_r')]//*)[1]
+//*[@id='sdg_chart']//*[@id='goal9']//*   Industry, innovation and infrastructure (Neutral)
+//*[@id='sdg_chart']//*[@id='goal10']//*  Reduced inequalities (Aligned)
+//*[@id='sdg_chart']//*[@id='goal11']//*  Sustainable cities and communities (Neutral)
+//*[@id='sdg_chart']//*[@id='goal12']//*  Responsible consumption and production (Neutral)
+//*[@id='sdg_chart']//*[@id='goal13']//*  Climate action  (Neutral)
+//*[@id='sdg_chart']//*[@id='goal14']//*  Life below water (Neutral)
+//*[@id='sdg_chart']//*[@id='goal15']//*  Life on land (Neutral)
+//*[@id='sdg_chart']//*[@id='goal16']//*  Peace, justice and strong institutions  (Neutral)
+//*[@id='sdg_chart']//*[@id='goal17']//*  Partnerships for the goals (Neutral)
+
+
+
+Neutral
+//caption[text()='SDG List']/..//thead
+
+//caption[text()='SDG List']/..//tbody//tr[1]
+//label[text()='Partial Redemption']
+
+
+
+//select[contains(@name,'TAP[1].WORKINGELEMENTS[1].SDGGROUP')]
+
+People
+Planet
+Prosperity
+Peace
+Partnerships
+
+
+https://builder.zety.com/dashboard
+
+
+//*[text()='SDG-Info']/..
+
+
+
+http://rd.temenosgroup.com/browse/WSC-31186
+http://rd.temenosgroup.com/browse/WSC-31105
+http://rd.temenosgroup.com/browse/WSC-30873
+http://rd.temenosgroup.com/browse/WSC-30837
+http://rd.temenosgroup.com/browse/WSC-30857
+http://rd.temenosgroup.com/browse/WSC-31225
+
+
+No rating history and refresh issue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

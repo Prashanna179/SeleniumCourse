@@ -1,0 +1,19 @@
+
+public class Parentclass {
+
+	public static void main(String[] args) {
+		
+
+	}
+	String color = "red";
+	
+	public void gear()
+	{
+		System.out.println("Gear available");
+	}
+	
+	public void audio()
+	{
+		System.out.println("audio available");
+	}	
+}

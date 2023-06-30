@@ -1,0 +1,27 @@
+package Temenos.ChromeDevTools;
+
+import java.util.Optional;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.v113.network.Network;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class NetworkLogActivity {
+
+	public static void main(String[] args) {
+		
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devTools = driver.getDevTools();
+		devTools.createSession();
+		
+		devTools.send(Network.enable(Optional.<Integer> empty(), Optional.<Integer> empty(), Optional.<Integer> empty()));
+		
+		devTools.addListener(Network.responseReceived(), a->{});
+		
+
+	}
+
+}

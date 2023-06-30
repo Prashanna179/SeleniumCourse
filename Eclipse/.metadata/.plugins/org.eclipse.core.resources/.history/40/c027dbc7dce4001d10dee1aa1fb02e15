@@ -1,0 +1,23 @@
+import java.util.TreeSet;
+
+public class EmployeeClassCompCompoDemo {
+
+	public static void main(String[] args) {
+		
+		EmployeeClassComparableAndComparator e = new EmployeeClassComparableAndComparator(2,"Prashanna");
+		EmployeeClassComparableAndComparator e1 = new EmployeeClassComparableAndComparator(1,"Dhivyan");
+		EmployeeClassComparableAndComparator e2 = new EmployeeClassComparableAndComparator(4,"Letchu");
+		EmployeeClassComparableAndComparator e3 = new EmployeeClassComparableAndComparator(3,"Prakash");
+		
+		TreeSet t = new TreeSet();
+		t.add(e);
+		t.add(e1);
+		t.add(e2);
+		t.add(e3);
+		
+		
+		
+
+	}
+
+}

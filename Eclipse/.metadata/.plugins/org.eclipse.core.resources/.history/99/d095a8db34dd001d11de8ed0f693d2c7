@@ -1,0 +1,25 @@
+
+public class constructorDemo {
+
+
+	public constructorDemo()
+	{
+		System.out.println("Default Constructor");
+	}
+	
+	
+	public constructorDemo(String a)
+	{
+		System.out.println("Parameter constructor :" +   a);
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		constructorDemo c = new constructorDemo("Hello");
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package Temenos.ChromeDevTools;
+
+public class NetworkFailedRequest {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

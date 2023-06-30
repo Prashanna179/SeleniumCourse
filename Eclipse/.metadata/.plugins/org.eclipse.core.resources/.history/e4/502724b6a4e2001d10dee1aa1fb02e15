@@ -1,0 +1,22 @@
+import java.util.HashSet;
+
+public class UniqueElementProgram {
+
+	public static void main(String[] args) {
+		
+		
+		int z[]= {4,5,5,5,4,6,6,9,4};
+		
+		HashSet<Integer> s = new HashSet<Integer>();
+		
+		for(int i =0;i<z.length;i++)
+		{
+			s.add(z[i]);
+		}
+		
+		Object a[] = s.toArray();
+		System.out.println(a[0]	);
+		
+	}
+
+}

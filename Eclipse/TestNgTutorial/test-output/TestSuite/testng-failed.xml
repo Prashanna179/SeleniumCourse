@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestModule1(failed)">
+    <classes>
+      <class name="test1.Demo7Parameters">
+        <methods>
+          <include name="ABC8"/>
+        </methods>
+      </class> <!-- test1.Demo7Parameters -->
+      <class name="test1.Demo5Parameters">
+        <methods>
+          <include name="ABC2"/>
+          <include name="ABC1"/>
+        </methods>
+      </class> <!-- test1.Demo5Parameters -->
+    </classes>
+  </test> <!-- TestModule1(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,0 +1,11 @@
+
+public class Sum {
+
+	
+	public int SumofDigits(int a , int b)
+	{
+		int c = a+b;
+		return c;
+	}
+
+}

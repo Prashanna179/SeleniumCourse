@@ -1,0 +1,27 @@
+package test1;
+
+import org.testng.annotations.Test;
+
+public class Demo4 {
+
+	@Test
+	public void Ball()
+	{
+		System.out.println("Ball");		
+	}
+	
+
+	@Test
+	public void Bat()
+	{
+		System.out.println("Bat");		
+	}
+	
+
+	@Test
+	public void Stump()
+	{
+		System.out.println("Stump");		
+	}
+	
+}

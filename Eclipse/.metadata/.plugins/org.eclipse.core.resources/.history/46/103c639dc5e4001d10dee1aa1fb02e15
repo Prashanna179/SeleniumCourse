@@ -1,0 +1,27 @@
+
+public class EmployeeClassComparableAndComparator implements Comparable {
+
+	
+		
+		int id;
+		String name;
+		
+		public  EmployeeClassComparableAndComparator(int id , String name)
+		{
+			this.id = id;
+			this.name = name;
+		}
+		
+		
+		
+		
+	
+
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

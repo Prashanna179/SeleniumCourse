@@ -1,0 +1,32 @@
+
+public class ArrayExampleProgram {
+
+	public static void main(String[] args) {
+		
+		int a[]= {3,11,2,6,9,23,5,55};
+		
+		int firstMax = a[0];
+		int secondMax = a[1];
+		
+		if(secondMax > firstMax)
+		{
+			firstMax = secondMax;
+		}
+		
+		
+		
+		
+		//Minimum number in an array
+		int min = a[0];
+		for(int i=1;i<a.length;i++)
+		{
+			if(a[i]<min)
+			{
+				min=a[i];
+			}
+		}
+
+		System.out.println(min);
+	}
+
+}

@@ -1,0 +1,47 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a[]= {25, 11, 7, 75, 56,3};
+		int min =a[0];
+		
+		for(int i=0;i<a.length;i++)
+		{	
+			
+			if(a[i]<min)
+				{
+					min=a[i];
+				}
+				
+		}
+		
+		System.out.println(min);
+		
+		String ss = "Prashanna";
+		
+		String sss[]= {"Prashan","Dhiv","Letchu"};
+		List<String> aaa = Arrays.asList(sss);
+		
+		aaa.stream().filter(s->s.startsWith("P")).forEach(s->System.out.println(s));
+		
+		
+		
+		
+		for(int i=ss.length()-1;i>=0;i--)
+		{	
+		System.out.print(ss.charAt(i));	
+		}
+		System.out.println("");
+		
+		char aa[]=ss.toCharArray();
+		for(int i=aa.length-1;i>=0;i--)
+		{
+			System.out.print(aa[i]);
+		}	
+	}
+
+}

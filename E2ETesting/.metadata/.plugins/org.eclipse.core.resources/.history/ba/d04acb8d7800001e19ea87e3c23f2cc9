@@ -1,0 +1,17 @@
+
+public class Sum {
+
+	
+	int n=10;
+	
+	public int SumofDigits(int a , int b)
+	{
+		int c = a+b;
+		System.out.println();
+		return c;
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,54 @@
+import java.util.HashSet;
+
+public class UniqueElementProgram {
+
+	public static void main(String[] args) {
+		
+		
+		int z[]= {4,5,5,5,4,6,6,9,4};
+		
+		HashSet<Integer> s = new HashSet<Integer>();
+		
+		for(int i =0;i<z.length;i++)
+		{
+			s.add(z[i]);
+		}
+		
+		System.out.println(s);
+		
+		
+		Object a[] = s.toArray();
+		System.out.println(a[0].getClass());
+		
+		//using for loop
+		
+		for(int i=0;i<z.length;i++)
+		{
+			int flag=0,k=0;
+			for(int j=0;j<z.length;j++)
+			{
+				if(z[i]==z[j])
+				{
+					flag=1;
+					k++;
+					
+				}
+			}
+			if()
+			{
+				System.out.println(z[i]);
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+
+		
+		
+	}
+
+}

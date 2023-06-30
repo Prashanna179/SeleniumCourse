@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Temenos.GlobalTest.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Error Validation TestFolder(failed)">
+    <classes>
+      <class name="Temenos.TestCases.ErrorValidationTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeWindow"/>
+          <include name="confirmationMsgValidation"/>
+          <include name="loginErrorValidation"/>
+        </methods>
+      </class> <!-- Temenos.TestCases.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Error Validation TestFolder(failed) -->
+</suite> <!-- Failed suite [Suite] -->

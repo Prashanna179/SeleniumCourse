@@ -1,0 +1,37 @@
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class MapInterface {
+
+	public static void main(String[] args) {
+		
+		HashMap<Integer,String> h = new HashMap<Integer,String>();
+		h.put(0, "Prashanna");
+		h.put(1, "Dhivyan");
+		h.put(2, "Letchu");
+		
+		
+		System.out.println(h);
+		System.out.println(h.get(0));
+		
+	Set s =	h.entrySet();
+	
+			Iterator it = 	s.iterator();
+			
+			while(it.hasNext())
+			{
+					//typecasting the object to Entry interface
+					Entry  mp = (Entry)it.next();
+					System.out.println(mp.getKey());
+					System.out.println(mp.getValue());
+			}
+			
+			
+			Hashtable ht = new Hashtable(0;)
+	}
+
+}

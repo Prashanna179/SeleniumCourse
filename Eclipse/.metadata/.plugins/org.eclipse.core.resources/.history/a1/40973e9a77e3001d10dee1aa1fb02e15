@@ -1,0 +1,10 @@
+
+public class DurgaSoftCollections {
+
+	public static void main(String[] args) {
+		
+		Collection c = new Collection();
+
+	}
+
+}

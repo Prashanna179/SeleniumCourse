@@ -1,0 +1,44 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+
+public class PracticeDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\UserDrive\\Prashan\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+
+		
+		driver.get("https://www.google.com/");
+		
+				
+		Actions a = new Actions(driver);	
+		
+		WebElement b = driver.findElement(By.id("APjFqb"));
+		//a.moveToElement(b).click().keyDown(Keys.SHIFT).sendKeys("cafe").keyUp(Keys.SHIFT).sendKeys("cafe").click().sendKeys(Keys.DOWN).build().perform();
+		
+		
+		/*b.sendKeys("cafe");
+		Thread.sleep(3000);
+		b.sendKeys(Keys.DOWN);
+		Thread.sleep(1000);
+
+		b.sendKeys(Keys.DOWN);
+		Thread.sleep(1000);
+		b.sendKeys(Keys.DOWN);
+		Thread.sleep(1000);
+		b.sendKeys(Keys.ENTER);
+		*/
+		
+
+		
+	}
+
+}

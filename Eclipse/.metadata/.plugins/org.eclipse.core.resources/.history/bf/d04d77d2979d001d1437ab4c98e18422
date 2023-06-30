@@ -1,0 +1,19 @@
+
+public class corejava3 {
+
+	public static void main(String[] args) {
+		//string is an object
+		
+		String s  = "Prashan";
+		String s1="Prashan";
+		
+		String s2=new String("Prashan");
+		
+		String s3="Java Python CSS";
+		String splittedarray = s3.split(" ");
+		
+		
+
+	}
+
+}

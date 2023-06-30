@@ -1,0 +1,12 @@
+package test1;
+
+public class Demo3 {
+	
+	@Test
+	public void Prakash()
+	{
+		System.out.println("Prakash");
+	}
+
+}
+

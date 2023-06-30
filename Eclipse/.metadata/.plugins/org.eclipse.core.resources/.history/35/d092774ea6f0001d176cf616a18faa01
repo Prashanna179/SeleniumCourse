@@ -1,0 +1,29 @@
+package test1;
+
+import org.testng.annotations.Test;
+
+public class Demo6Parameters {
+
+	@Test
+	public void ABC5()
+	{
+		System.out.println("ABC5");
+	}
+	
+	@Test
+	public void ABC6()
+	{
+		System.out.println("ABC6");
+	}
+	
+	@Test
+	public void ABC7()
+	{
+		System.out.println("ABC7");
+	}
+	
+	enum city  {chennai,bangalore};
+	
+	
+	
+}

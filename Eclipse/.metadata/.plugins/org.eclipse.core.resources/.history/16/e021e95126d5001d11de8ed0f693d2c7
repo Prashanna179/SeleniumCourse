@@ -1,0 +1,16 @@
+public class basic1 {
+
+	public static void main(String[] args) {
+			
+		int i=0;
+		for(int i=0;i<4;i++)
+		{
+			for(int j=i;j<4;j++)
+			{
+				System.out.println("");
+			}
+		}
+
+	}
+
+}

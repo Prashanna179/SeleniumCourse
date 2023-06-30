@@ -1,0 +1,21 @@
+
+public class ChildClass extends Parentclass{
+
+	public static void main(String[] args) {
+		
+		
+		ChildClass a = new ChildClass();
+		a.colour();
+	}
+
+	
+	public void engine()
+	{
+		System.out.println("Engine available");
+	}
+	
+	public void colour()
+	{
+		System.out.println(color);
+	}
+}

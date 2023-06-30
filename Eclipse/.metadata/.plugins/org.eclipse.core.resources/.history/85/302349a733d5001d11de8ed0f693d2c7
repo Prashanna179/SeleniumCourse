@@ -1,0 +1,6 @@
+
+public class basic2 {
+
+	basic1 a = new basic1();
+	a.added()
+}

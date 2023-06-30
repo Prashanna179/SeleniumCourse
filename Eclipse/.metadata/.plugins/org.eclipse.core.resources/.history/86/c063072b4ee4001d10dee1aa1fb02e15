@@ -1,0 +1,15 @@
+
+public class DurgaSoftComparableAndComparator {
+
+	public static void main(String[] args) {
+		
+		//Comparable - Default natural Sorting order
+		
+		System.out.println("A".compareTo("B"));
+		System.out.println("B".compareTo("A"));
+		System.out.println("A".compareTo("A"));
+		
+		
+	}
+
+}

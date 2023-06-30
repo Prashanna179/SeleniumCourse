@@ -1,0 +1,57 @@
+package Temenos.ExcelDriven;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProvider {
+
+	
+	
+	@Test(dataProvider = "getData")
+	public void testcase1(String s1,String s2,int n)
+	{
+		System.out.println(s1 + s2 + n);
+	}
+	
+//	@DataProvider
+	public static void getData() throws IOException
+	{
+		
+		FileInputStream file = new FileInputStream("C:\\UserDrive\\Prashan\\ExcelDemo.xlsx");
+		XSSFWorkbook wb = new XSSFWorkbook(file);
+		XSSFSheet sheet = wb.getSheet("sample");
+		System.out.println(wb.getSheetName(1));
+		//To get how many rows
+		int rowsCount = sheet.getPhysicalNumberOfRows();
+		XSSFRow row = sheet.getRow(0);
+		//to get how many columns
+		int colCount = (int)row.getLastCellNum();
+		
+		Object data[][] = new Object[rowsCount-1][colCount];
+		
+		Iterator<Row> itr = sheet.rowIterator();
+		itr.next();//control omes to first r
+		
+		
+		
+		
+		//Object data[][]= {{"hello","text",1},{"Bye","Message",2},{"Hi","Call",3}};
+		//return data;
+	}
+	
+	public static void main(String args[]) throws IOException
+	{
+		getData();
+	}
+}
+
+

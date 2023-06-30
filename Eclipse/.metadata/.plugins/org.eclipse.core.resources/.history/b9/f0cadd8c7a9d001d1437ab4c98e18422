@@ -1,0 +1,31 @@
+
+public class corejava {
+
+	public static void main(String[] args) {
+		
+		//Datatypes
+		int a =5;
+		String name="Prashanna";
+		char letter ='a';
+		double b = 5.5;
+		boolean c = true;
+		
+		System.out.println("value of integer is " + a);
+		
+		//Arrays
+		int arr[] = new int[5];
+		arr[0]='5';
+		arr[1]='5';
+		arr[2]='5';
+		arr[3]='5';
+		arr[4]='5';
+		
+		int z[]= {1,2,3,4,5};
+		
+		
+		
+		
+				
+	}
+
+}

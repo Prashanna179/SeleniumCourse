@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-01T22:34:27 IST" name="Default suite" finished-at="2023-06-01T22:34:41 IST" duration-ms="14535">
+    <groups>
+    </groups>
+    <test started-at="2023-06-01T22:34:27 IST" name="Default test" finished-at="2023-06-01T22:34:41 IST" duration-ms="14535">
+      <class name="Temenos.ExcelDriven.jdbc">
+        <test-method signature="loginApp()[pri:0, instance:Temenos.ExcelDriven.jdbc@229c6181]" started-at="2023-06-01T22:34:27 IST" name="loginApp" finished-at="2023-06-01T22:34:32 IST" duration-ms="5227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="loginAppUsingDataProvider(java.util.HashMap)[pri:0, instance:Temenos.ExcelDriven.jdbc@229c6181]" started-at="2023-06-01T22:34:32 IST" name="loginAppUsingDataProvider" data-provider="giveDataFromDb" finished-at="2023-06-01T22:34:35 IST" duration-ms="3125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Prashanna, password=Chennai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAppUsingDataProvider -->
+        <test-method signature="loginAppUsingDataProvider(java.util.HashMap)[pri:0, instance:Temenos.ExcelDriven.jdbc@229c6181]" started-at="2023-06-01T22:34:35 IST" name="loginAppUsingDataProvider" data-provider="giveDataFromDb" finished-at="2023-06-01T22:34:38 IST" duration-ms="3098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Dhivyan, password=Coimbatore}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAppUsingDataProvider -->
+        <test-method signature="loginAppUsingDataProvider(java.util.HashMap)[pri:0, instance:Temenos.ExcelDriven.jdbc@229c6181]" started-at="2023-06-01T22:34:38 IST" name="loginAppUsingDataProvider" data-provider="giveDataFromDb" finished-at="2023-06-01T22:34:41 IST" duration-ms="2978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Letchu, password=Trichy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAppUsingDataProvider -->
+      </class> <!-- Temenos.ExcelDriven.jdbc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

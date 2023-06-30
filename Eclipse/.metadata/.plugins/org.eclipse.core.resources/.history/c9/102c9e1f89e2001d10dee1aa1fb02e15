@@ -1,0 +1,51 @@
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class MapInterface {
+
+	public static void main(String[] args) {
+		
+		HashMap<Integer,String> h = new HashMap<Integer,String>();
+		h.put(0, "Prashanna");
+		h.put(1, "Dhivyan");
+		h.put(2, "Letchu");
+		h.put(3, null);
+		
+		System.out.println(h);
+		System.out.println(h.get(0));
+
+		
+			//Converting HashMap to Set
+			Set s =	h.entrySet();
+	
+			Iterator it = 	s.iterator();
+			
+			while(it.hasNext())
+			{
+					//typecasting the object to Entry interface
+					Map.Entry  mp = (Map.Entry)it.next();
+					System.out.println(mp.getKey());
+					System.out.println(mp.getValue());
+			}
+			
+			
+			Hashtable<Integer,String> ht = new Hashtable<Integer,String>();
+			ht.put(0,"Prashanna");
+			ht.put(1,"Dhivyan");
+			ht.put(2,"Letchu");
+			
+			Enumeration<Integer> e =  ht.keys();
+			
+			while(e.hasMoreElements())
+			{
+					e.nextElement();
+			}
+		
+	}
+
+}

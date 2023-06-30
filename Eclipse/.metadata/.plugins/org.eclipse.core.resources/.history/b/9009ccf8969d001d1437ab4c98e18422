@@ -1,0 +1,12 @@
+
+public class corejava3 {
+
+	public static void main(String[] args) {
+		//string is an object
+		
+		String s = "Prashan";
+		String s1="Prashan";
+
+	}
+
+}

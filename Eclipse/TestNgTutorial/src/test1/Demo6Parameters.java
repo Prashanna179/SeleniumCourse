@@ -1,0 +1,44 @@
+package test1;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class Demo6Parameters {
+
+	
+	@Test(dataProvider = "DataProviderMethod")
+	public void ABC5(String name , String password)
+	{
+		System.out.println("ABC5");
+		System.out.println(name + "," + password);
+	}
+	
+
+	
+	@Test
+	public void ABC6()
+	{
+		System.out.println("ABC6");
+	}
+	
+	@Test
+	public void ABC7()
+	{
+		System.out.println("ABC7");
+	}
+	
+	@DataProvider
+	public Object[][] DataProviderMethod()
+	{
+		Object a[][] =  new Object[2][2];
+		a[0][0]="firstUsername";
+		a[0][1]="firstPassword";
+		
+		a[1][0]="SecondUsername";
+		a[1][1]="SecondPassword";
+		
+		return a;
+	}
+	
+	
+}

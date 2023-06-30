@@ -1,0 +1,40 @@
+
+public class MultiArray {
+
+	public static void main(String[] args) 
+	{
+	int a[][]= {{22,12,93},{47,555,6},{71,108,9}};
+	
+	for(int i=0;i<3;i++)
+	{
+		for(int j=0;j<3;j++)
+		{
+			System.out.print(a[i][j]+" ");
+		}
+		System.out.println();
+	}
+
+
+//print minimum number from the matrix
+		int min=a[0][0];
+		
+		for(int i=0;i<3;i++)
+		{
+			for(int j=0;j<3;j++)
+			{
+				if(a[i][j]<min)
+				{
+					min=a[i][j];
+				}
+			}
+		}
+		System.out.println(min);
+
+		
+
+}
+}
+
+
+
+

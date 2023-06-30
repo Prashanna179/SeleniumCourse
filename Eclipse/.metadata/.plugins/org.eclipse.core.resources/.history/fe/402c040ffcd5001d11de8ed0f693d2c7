@@ -1,0 +1,6 @@
+
+public class MultiArray {
+
+	int a[3][3];
+}
+

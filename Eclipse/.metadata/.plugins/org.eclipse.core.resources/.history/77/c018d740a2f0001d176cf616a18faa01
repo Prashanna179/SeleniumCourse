@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WealthSuite">
+
+  <test thread-count="5" name="TestModule1">
+	<classes>
+		<class name="test1.Demo5Parameters"/>
+		<class name="test1.Demo5Parameters"/>
+	</classes>
+  </test> 
+</suite>

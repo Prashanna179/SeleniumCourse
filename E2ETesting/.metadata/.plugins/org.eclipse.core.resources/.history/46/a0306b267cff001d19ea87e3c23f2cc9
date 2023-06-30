@@ -1,0 +1,17 @@
+
+public class IntegerSumArray {
+
+	public void Sum()
+	{
+		int a = 9+8;
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

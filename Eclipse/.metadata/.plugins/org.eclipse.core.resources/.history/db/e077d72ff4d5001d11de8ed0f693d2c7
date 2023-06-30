@@ -1,0 +1,10 @@
+
+public class AbstractDemo {
+
+	public void getCollege()
+	{
+		System.out.println("PSG");
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+
+public class ArrayExampleProgram {
+
+	public static void main(String[] args) {
+		
+		int a[]= {3,11,2,6,9,23,1,55};
+		
+		int min = a[0];
+		
+		for(int i=1;i<a.length;i++)
+		{
+			if(min<a[i])
+		}
+
+	}
+
+}

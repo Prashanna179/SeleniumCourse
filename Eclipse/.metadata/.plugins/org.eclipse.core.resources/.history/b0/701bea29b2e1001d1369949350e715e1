@@ -1,0 +1,15 @@
+import java.util.HashMap;
+
+public class MapInterface {
+
+	public static void main(String[] args) {
+		
+		HashMap h = new HashMap();
+		h.put(0, "Prashanna");
+		h.put(1, "Dhivyan");
+		h.put(1, "Dhivyan");
+		
+
+	}
+
+}

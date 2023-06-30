@@ -1,0 +1,15 @@
+
+public class ChildClass extends Parentclass{
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+	
+	public void engine()
+	{
+		System.out.println("Engine available");
+	}
+}

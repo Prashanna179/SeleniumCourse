@@ -1,0 +1,12 @@
+
+public class IntegerSumArray {
+
+	int a = 9;
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

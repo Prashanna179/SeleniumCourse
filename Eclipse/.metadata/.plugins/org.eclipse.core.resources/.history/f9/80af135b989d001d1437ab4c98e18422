@@ -1,0 +1,25 @@
+
+public class corejava3 {
+
+	public static void main(String[] args) {
+		//string is an object
+		
+		String s  = "Prashan";
+		String s1="Prashan";
+		
+		String s2=new String("Prashan");
+		
+		String s3="Java Python CSS";
+		String x[] = s3.split(" ");
+		
+		System.out.println(s3);
+		
+		for(int i=0;i<x.length();i++)
+		System.out.println(x[i]);
+		
+		
+		
+
+	}
+
+}

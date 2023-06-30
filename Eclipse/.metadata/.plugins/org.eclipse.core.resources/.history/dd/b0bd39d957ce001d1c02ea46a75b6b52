@@ -1,0 +1,28 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class Section11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver", "C:\\UserDrive\\Prashan\\drivers\\chromedriver.exe");
+
+		ChromeOptions co = new ChromeOptions();
+		co.addArguments("--remote-allow-origins=*");
+
+		WebDriver driver = new ChromeDriver(co);
+		
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		System.out.println(driver.findElements(By.tagName("a")).size());
+		
+		WebElement l = driver.findElement(By.id("gf-BIG")).findElements(By.tagName("a"));	
+	
+		
+		
+	}
+
+}

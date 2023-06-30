@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class DurgaSoftCollections {
+
+	public static void main(String[] args) {
+		
+		//Collection(I)
+		Collection c = new ArrayList();
+		c.add("Prashanna");
+		c.add("Dhivyan");
+		
+		Collection d  = new ArrayList();
+		d.add("Letchu");
+		d.add("Prakash");
+		d.addAll(c);
+		
+		
+		Collection e = new ArrayList();
+		e.add("Prashanna");
+		e.add("Prakash");
+		
+		System.out.println(c);
+		System.out.println(d);
+		
+		//d.removeAll(e);
+		
+		d.retainAll(e);
+		
+		System.out.println(d);
+
+	}
+
+}

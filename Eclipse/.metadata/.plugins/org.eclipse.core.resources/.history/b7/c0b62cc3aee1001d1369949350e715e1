@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class CollectionDemo {
+
+	public static void main(String[] args) {
+		
+	//List
+		
+	//ArrayList
+		
+	int a[]= {1,2,3,4,5,6};
+	String b = a.toString();
+	List<Integer> l = Arrays.stream(a).boxed().collect(Collectors.toList());
+	l.add(2, 10);
+	System.out.println(l);
+	
+	
+	ArrayList<String> Al = new ArrayList<String>();
+	
+	Al.add("Prashanna");
+	Al.add("Dhivyan");
+	Al.add("Letchu");
+	
+	System.out.println(Al);
+	
+	Iterator<String> it = Al.iterator();
+	while(it.hasNext())
+	{
+		System.out.println(it.next());
+	}
+	
+	//Ascending Order 
+	Al.sort((aa,bb)->aa.compareTo(bb));
+	System.out.println(Al);
+	
+	//Descending Order
+	Al.sort((aa,bb)->bb.compareTo(aa));
+	System.out.println(Al);
+	
+	
+	Collections.sort(Al);
+	System.out.println(Al);
+
+	
+	//Al.stream().filter(s->s.toString().length()>6).forEach(s->System.out.println(s));
+	
+}
+}

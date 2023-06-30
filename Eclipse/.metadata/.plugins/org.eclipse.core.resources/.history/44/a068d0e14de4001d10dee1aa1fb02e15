@@ -1,0 +1,9 @@
+
+public class DurgaSoftComparableAndComparator {
+
+	public static void main(String[] args) {
+		
+		//Comparable
+	}
+
+}

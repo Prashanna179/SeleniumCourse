@@ -1,0 +1,10 @@
+package test1;
+
+public interface InterfaceDemo {
+
+	public void display();
+	
+	default void add();
+	
+	
+}

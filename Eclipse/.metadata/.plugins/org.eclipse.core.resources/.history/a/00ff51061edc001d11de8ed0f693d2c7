@@ -1,0 +1,12 @@
+
+public class CoreJavaPart2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Data class
+		
+		Data d = new Date();
+	}
+
+}

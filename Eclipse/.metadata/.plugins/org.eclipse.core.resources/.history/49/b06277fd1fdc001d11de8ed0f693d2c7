@@ -1,0 +1,22 @@
+
+import java.text.SimpleDateFormat;  
+import java.util.Date;
+
+public class CoreJavaPart2 {
+
+	public static void main(String[] args) {
+
+		//Date class
+		
+		Date d = new Date();
+		System.out.println(d.toString());
+	
+		/Calender Class
+		
+		Calender c = new Calender();
+		
+		
+		
+	}
+
+}

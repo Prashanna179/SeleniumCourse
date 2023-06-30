@@ -1,0 +1,16 @@
+
+public class AbstractDemoChild extends AbstractDemo {
+
+	public static void main(String[] args) {
+	
+	
+	}
+
+	@Override
+	public void dispDepartmentLocation() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

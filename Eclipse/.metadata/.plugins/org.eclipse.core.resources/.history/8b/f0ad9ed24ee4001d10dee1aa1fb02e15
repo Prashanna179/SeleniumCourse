@@ -1,0 +1,35 @@
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class DurgaSoftComparableAndComparator {
+
+	public static void main(String[] args) {
+		
+		//Comparable - Default natural Sorting order
+		
+		System.out.println("A".compareTo("B"));
+		System.out.println("B".compareTo("A"));
+		System.out.println("A".compareTo("A"));
+		
+		//Comparator  - Customized sorting
+		
+		//Write a program to insert integer objects into Treeset : Descending Order
+		
+		//Default nature sorting order - Ascending . JVM will call comparable interface method CompareTo()
+		TreeSet t = new TreeSet();
+		t.add(10);
+		t.add(5);
+		t.add(2);
+		t.add(20);
+		t.add(20);
+		t.add(0);
+		System.out.println(t);
+		//Descending Order - Compare() in Comparator interface
+		
+		TreeSet t1 = new TreeSet(new MyComparator);
+		
+		
+	}
+}
+
+public class MyComparator implements Comparator

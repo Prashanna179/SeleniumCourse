@@ -1,0 +1,25 @@
+
+public class AbstractDemoChild extends AbstractDemo {
+
+	public static void main(String[] args) {
+	
+	
+	}
+
+	@Override
+	public void dispDepartmentLocation() {
+		
+		System.out.println("F block");
+		
+	}
+	
+	
+	public void dispDepartmentLocation(int a) {
+		
+		System.out.println("F block);
+		
+	}
+	
+	
+	
+}

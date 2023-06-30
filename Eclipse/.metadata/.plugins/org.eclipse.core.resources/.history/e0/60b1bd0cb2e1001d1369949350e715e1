@@ -1,0 +1,12 @@
+import java.util.HashMap;
+
+public class MapInterface {
+
+	public static void main(String[] args) {
+		
+		HashMap h = new HashMap();
+		
+
+	}
+
+}

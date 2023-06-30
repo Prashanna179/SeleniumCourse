@@ -1,0 +1,12 @@
+
+public class ArrayExampleProgram {
+
+	public static void main(String[] args) {
+		
+		int a[]= {3,11,2,6,9,23,1,55};
+		
+		int min = a[0];
+
+	}
+
+}

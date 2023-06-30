@@ -1,0 +1,25 @@
+package test1;
+
+public class Demo5Parameters {
+
+	public void ABC1()
+	{
+		System.out.println("ABC1");
+	}
+	
+	public void ABC2()
+	{
+		System.out.println("ABC2");
+	}
+	
+	public void ABC3()
+	{
+		System.out.println("ABC1");
+	}
+	
+	public void ABC4()
+	{
+		System.out.println("ABC4");
+	}
+	
+}

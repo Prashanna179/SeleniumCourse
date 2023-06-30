@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-WealthSuite" class="navigator-link">
+              <span class="suite-name border-failed">WealthSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-WealthSuite" class="navigator-link ">
+                    <span>C:\UserDrive\Prashan\Eclipse\TestNgTutorial\testng4.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-WealthSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-WealthSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-WealthSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-WealthSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-WealthSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-WealthSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WealthSuite" class="hide-methods failed suite-WealthSuite"> (hide)</a> <!-- hide-methods failed suite-WealthSuite -->
+                      <a href="#" panel-name="suite-WealthSuite" class="show-methods failed suite-WealthSuite"> (show)</a> <!-- show-methods failed suite-WealthSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-WealthSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo5Parameters" class="method navigator-link" hash-for-method="ABC2">ABC2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WealthSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WealthSuite" class="hide-methods passed suite-WealthSuite"> (hide)</a> <!-- hide-methods passed suite-WealthSuite -->
+                      <a href="#" panel-name="suite-WealthSuite" class="show-methods passed suite-WealthSuite"> (show)</a> <!-- show-methods passed suite-WealthSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-WealthSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo5Parameters" class="method navigator-link" hash-for-method="ABC1(https://amazontestfolder1.com)">ABC1(https://amazontestfolder1.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo7Parameters" class="method navigator-link" hash-for-method="ABC10">ABC10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo8Parameters" class="method navigator-link" hash-for-method="ABC11">ABC11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo8Parameters" class="method navigator-link" hash-for-method="ABC12">ABC12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo8Parameters" class="method navigator-link" hash-for-method="ABC13">ABC13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo5Parameters" class="method navigator-link" hash-for-method="ABC3">ABC3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo5Parameters" class="method navigator-link" hash-for-method="ABC4">ABC4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo6Parameters" class="method navigator-link" hash-for-method="ABC5(SecondUsername, SecondPassword)">ABC5(SecondUsername, SecondPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo6Parameters" class="method navigator-link" hash-for-method="ABC5(firstUsername, firstPassword)">ABC5(firstUsername, firstPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo6Parameters" class="method navigator-link" hash-for-method="ABC6">ABC6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo6Parameters" class="method navigator-link" hash-for-method="ABC7">ABC7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo7Parameters" class="method navigator-link" hash-for-method="ABC8(https://amazonamazontestfolder2.com)">ABC8(https://amazonamazontestfolder2.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WealthSuite" title="test1.Demo7Parameters" class="method navigator-link" hash-for-method="ABC9">ABC9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WealthSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WealthSuite" class="panel WealthSuite">
+          <div class="suite-WealthSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test1.Demo5Parameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC2">
+                  </a> <!-- ABC2 -->
+                  <span class="method-name">ABC2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test1.Demo5Parameters.ABC2(Demo5Parameters.java:21)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WealthSuite-class-failed -->
+          <div class="suite-WealthSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test1.Demo6Parameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC5(SecondUsername, SecondPassword)">
+                  </a> <!-- ABC5(SecondUsername, SecondPassword) -->
+                  <span class="method-name">ABC5</span>
+                  <span class="parameters">(SecondUsername, SecondPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC5(firstUsername, firstPassword)">
+                  </a> <!-- ABC5(firstUsername, firstPassword) -->
+                  <span class="method-name">ABC5</span>
+                  <span class="parameters">(firstUsername, firstPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC6">
+                  </a> <!-- ABC6 -->
+                  <span class="method-name">ABC6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC7">
+                  </a> <!-- ABC7 -->
+                  <span class="method-name">ABC7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WealthSuite-class-passed -->
+          <div class="suite-WealthSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test1.Demo8Parameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC11">
+                  </a> <!-- ABC11 -->
+                  <span class="method-name">ABC11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC12">
+                  </a> <!-- ABC12 -->
+                  <span class="method-name">ABC12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC13">
+                  </a> <!-- ABC13 -->
+                  <span class="method-name">ABC13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WealthSuite-class-passed -->
+          <div class="suite-WealthSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test1.Demo7Parameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC10">
+                  </a> <!-- ABC10 -->
+                  <span class="method-name">ABC10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC8(https://amazonamazontestfolder2.com)">
+                  </a> <!-- ABC8(https://amazonamazontestfolder2.com) -->
+                  <span class="method-name">ABC8</span>
+                  <span class="parameters">(https://amazonamazontestfolder2.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC9">
+                  </a> <!-- ABC9 -->
+                  <span class="method-name">ABC9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WealthSuite-class-passed -->
+          <div class="suite-WealthSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test1.Demo5Parameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC1(https://amazontestfolder1.com)">
+                  </a> <!-- ABC1(https://amazontestfolder1.com) -->
+                  <span class="method-name">ABC1</span>
+                  <span class="parameters">(https://amazontestfolder1.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC3">
+                  </a> <!-- ABC3 -->
+                  <span class="method-name">ABC3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABC4">
+                  </a> <!-- ABC4 -->
+                  <span class="method-name">ABC4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WealthSuite-class-passed -->
+        </div> <!-- panel WealthSuite -->
+        <div panel-name="test-xml-WealthSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\UserDrive\Prashan\Eclipse\TestNgTutorial\testng4.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;WealthSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://amazon.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;test1.ListenerDemo&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;TestModule1&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://amazontestfolder1.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test1.Demo5Parameters&quot;/&gt;
+      &lt;class name=&quot;test1.Demo6Parameters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestModule1 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestModule2&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://amazonamazontestfolder2.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test1.Demo7Parameters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestModule2 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TestModule3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test1.Demo8Parameters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestModule3 --&gt;
+&lt;/suite&gt; &lt;!-- WealthSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WealthSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WealthSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestModule1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestModule2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestModule3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WealthSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WealthSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WealthSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WealthSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WealthSuite');
+function tableData_WealthSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ABC1')
+data.setCell(0, 2, 'test1.Demo5Parameters')
+data.setCell(0, 3, 6);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ABC5')
+data.setCell(1, 2, 'test1.Demo6Parameters')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ABC10')
+data.setCell(2, 2, 'test1.Demo7Parameters')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ABC2')
+data.setCell(3, 2, 'test1.Demo5Parameters')
+data.setCell(3, 3, 5);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ABC5')
+data.setCell(4, 2, 'test1.Demo6Parameters')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ABC8')
+data.setCell(5, 2, 'test1.Demo7Parameters')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ABC9')
+data.setCell(6, 2, 'test1.Demo7Parameters')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ABC6')
+data.setCell(7, 2, 'test1.Demo6Parameters')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ABC4')
+data.setCell(8, 2, 'test1.Demo5Parameters')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ABC3')
+data.setCell(9, 2, 'test1.Demo5Parameters')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ABC11')
+data.setCell(10, 2, 'test1.Demo8Parameters')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ABC12')
+data.setCell(11, 2, 'test1.Demo8Parameters')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ABC13')
+data.setCell(12, 2, 'test1.Demo8Parameters')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ABC7')
+data.setCell(13, 2, 'test1.Demo6Parameters')
+data.setCell(13, 3, 0);
+window.suiteTableData['WealthSuite']= { tableData: data, tableDiv: 'times-div-WealthSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 50 ms</span>
+              <div id="times-div-WealthSuite">
+              </div> <!-- times-div-WealthSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WealthSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WealthSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WealthSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WealthSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo5Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC1(https://amazontestfolder1.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo6Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC5(firstUsername, firstPassword)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo7Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC10</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo5Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ABC2</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo7Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC8(https://amazonamazontestfolder2.com)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo6Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC5(SecondUsername, SecondPassword)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo7Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC9</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo6Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC6</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ABC7</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo5Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC3</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ABC4</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test1.Demo8Parameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ABC11</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ABC12</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ABC13</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,13 @@
+
+public class Sum {
+
+	
+	int n=10;
+	
+	public int SumofDigits(int a , int b)
+	{
+		int c = a+b;
+		return c;
+	}
+
+}

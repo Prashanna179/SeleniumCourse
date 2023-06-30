@@ -1,0 +1,10 @@
+
+public abstract class AbstractDemoChild extends AbstractDemo {
+
+	public static void main(String[] args) {
+	
+	
+	}
+	
+	
+}

@@ -1,0 +1,12 @@
+package test1;
+
+public abstract class AbstractDemo {
+
+	public void disp()
+	{
+		
+	}
+	
+	
+}
+

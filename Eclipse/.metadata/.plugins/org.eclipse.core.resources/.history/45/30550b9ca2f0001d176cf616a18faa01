@@ -1,0 +1,32 @@
+package test1;
+
+import org.testng.annotations.Test;
+
+public class Demo5Parameters {
+
+	@Parameters
+	@Test
+	public void ABC1()
+	{
+		System.out.println("ABC1");
+	}
+	
+	@Test
+	public void ABC2()
+	{
+		System.out.println("ABC2");
+	}
+	
+	@Test
+	public void ABC3()
+	{
+		System.out.println("ABC1");
+	}
+	
+	@Test
+	public void ABC4()
+	{
+		System.out.println("ABC4");
+	}
+	
+}

@@ -1,0 +1,32 @@
+import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class selIntroduction {
+
+	public static void main(String[] args) {
+		
+		//Invoking Browser
+		//ChromeDriver driver = new ChromeDriver()
+
+		//seleniumManager
+		//	System.setProperty("webdriver.chrome.driver", "C:\\UserDrive\\Prashan\\chromedriver_win32\\chromedriver.exe");
+		//WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver", "C:\\UserDrive\\Prashan\\geckodriver\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("https://rahulshettyacademy.com");
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		driver.close();
+		//driver.quit();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
